@@ -16,11 +16,7 @@ navbar-brand {
   width: 370px;
   height: 320px;
 }
-.arrow {
-  position: relative;
-  left: 150px;
-  top: 5px;
-}
+
 
 .suitcase {
   position:absolute;
@@ -52,7 +48,7 @@ ul span {
   transition: .5s ease;
 }
 
-.col-4:hover .overlay {
+.slide:hover .overlay {
   height: 100%;
   width: 370px;
 }
@@ -140,4 +136,9 @@ ul span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.layout {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
